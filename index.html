@@ -20,14 +20,14 @@
               
               <p id="contenido">Aprende los comando de git </p>
               <p id="comando">creadores   </p>
-                <p>Alejandro,Yeny,Martha</p>
+               <p>Alejandro,Yeny,Martha</p>
               <p id="mensaje"> esta pagina esta diseñada para que aprendan mas sobre git</p>
                
             </div>
             <div class="diapositiva1"> <h1> crea un repositorio nuevo</h1> 
                    <p>Crea un directorio nuevo, ábrelo y ejecuta </p>
-				   <p>git init</p>
-				   <p>para crear un nuevo repositorio de git. <p/> 
+	           <p>git init</p>
+		   <p>para crear un nuevo repositorio de git. <p/> 
             </div>
             <div class="diapositiva2"><h1>hacer checkout a un repositorio</h1>
                    <p>Crea una copia local del repositorio ejecutando</p>
@@ -50,7 +50,102 @@
                   <p>Ahora el archivo esta incluído en el HEAD, pero aún no en tu</p>
                   <p>repositorio remoto.</p>
             </div>
-                                
+		<div class="diapositiva5"><h1>envío de cambios</h1>
+			<p>Tus cambios están ahora en el HEAD de tu copia local. Para enviar</p>
+			<p>estos cambios a tu repositorio remoto ejecuta</p>
+			<p>git push origin master</p>
+			<p>Reemplaza master por la rama a la que quieres enviar tus cambios.</p>
+			
+			<p>Si no has clonado un repositorio ya existente y quieres conectar tu</p>
+			<p>repositorio local a un repositorio remoto, usa</p>
+			<p>git remote add origin <server></p>
+			<p>Ahora podrás subir tus cambios al repositorio remoto seleccionado.</p>
+			
+		</div>
+		<div class="diapositiva6"><h1>ramas</h1>
+			<p>Las ramas son utilizadas para desarrollar funcionalidades aisladas unas</p>
+			<p>de otras. La rama master es la rama "por defecto" cuando creas un</p>
+			<p>repositorio. Crea nuevas ramas durante el desarrollo y fusiónalas a la</p>
+			<p>rama principal cuando termines.</p>
+			imagen
+			<p>Crea una nueva rama llamada "feature_x" y cámbiate a ella usando</p>
+			<p>git checkout -b feature_x</p>
+			<p>vuelve a la rama principal</p>
+			<p>git checkout master</p>
+			<p>y borra la rama</p>
+			<p>git branch -d feature_x</p>
+			<p>Una rama nueva no estará disponible para los demás a menos que</p>
+			<p>subas (push) la rama a tu repositorio remoto</p>
+			<p>git push origin <branch></p>
+		</div>
+		<div class="diapositiva6"><h1>actualiza & fusiona</h1>
+			<p>Para actualizar tu repositorio local al commit más nuevo, ejecuta</p>
+			<p>git pull</p>
+			<p>en tu directorio de trabajo para bajar y fusionar los cambios remotos.</p>
+			<p>Para fusionar otra rama a tu rama activa (por ejemplo master), utiliza</p>
+			<p>git merge <branch></p>
+			<p>en ambos casos git intentará fusionar automáticamente los cambios.</p>
+			<p>Desafortunadamente, no siempre será posible y se podrán producir</p>
+			<p>conflictos. Tú eres responsable de fusionar esos conflictos manualmente</p>
+			<p>al editar los archivos mostrados por git. Después de modificarlos,</p>
+			<p>necesitas marcarlos como fusionados con</p>
+			<p>git add <filename></p>
+			<p>Antes de fusionar los cambios, puedes revisarlos usando</p>
+			<p>git diff <source_branch> <target_branch></p>
+			<p></p>
+		</div>
+		<div class="diapositiva7"><h1>etiquetas</h1>
+			<p>Se recomienda crear etiquetas para cada nueva versión publicada de un</p>
+			<p>software. Este concepto no es nuevo, ya que estaba disponible en SVN.</p>
+			<p>Puedes crear una nueva etiqueta llamada 1.0.0 ejecutando</p>
+			<p>git tag 1.0.0 1b2e1d63ff</p>
+			<p>1b2e1d63ff se refiere a los 10 caracteres del commit id al cual quieres</p>
+			<p>referirte con tu etiqueta. Puedes obtener el commit id con</p>
+			<p>git log</p>
+			<p>también puedes usar menos caracteres que el commit id, pero debe ser</p>
+			<p>un valor único.</p>
+			
+		</div>
+		<div class="diapositiva8"><h1>reemplaza cambios locales</h1>
+			<p>En caso de que hagas algo mal (lo que seguramente nunca suceda ;)</p>
+			<p>puedes reemplazar cambios locales usando el comando</p>
+			<p>git checkout -- <filename></p>
+			<p>Este comando reemplaza los cambios en tu directorio de trabajo con el</p>
+			<p>último contenido de HEAD. Los cambios que ya han sido agregados al</p>
+			<p>Index, así como también los nuevos archivos, se mantendrán sin</p>
+			<p>cambio.</p>
+			<p>Por otro lado, si quieres deshacer todos los cambios locales y commits,</p>
+			<p>puedes traer la última versión del servidor y apuntar a tu copia local</p>
+			<p>principal de esta forma</p>
+			<p>git fetch origin</p>
+			<p>git reset --hard origin/master</p>
+		</div>
+		<div class="diapositiva9"><h1>datos útiles</h1>
+			<p>Interfaz gráfica por defecto</p>
+			<p>gitk</p>
+			<p>Colores especiales para la consola</p>
+			<p>git config color.ui true</p>
+			<p>Mostrar sólo una línea por cada commit en la traza</p>
+			<p>git config format.pretty oneline</p>
+			<p>Agregar archivos de forma interactiva</p>
+			<p>git add -i</p>
+			
+		</div>
+		<div class="diapositiva10"><h1>enlaces & recursos</h1>
+			<p>clientes gráficos</p>
+			<p>GitX (L) (OSX, open source)</p>
+			<p>Tower (OSX)</p>
+			<p>Source Tree (OSX, free)</p>
+		        <p>Source Tree (OSX, free)</p>
+			<p>GitBox (OSX)</p>
+			<h2>guías<(h2>
+			<p>Git Community Book</p>
+			<p>Pro Git</p>
+			<p>Think like a git</p>
+			<p>GitHub Help</p>
+			<p>GitHub Help</p>
+		</div>
+		
 
 
         </div>
