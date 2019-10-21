@@ -1,103 +1,124 @@
 *{
 
-margin:0;
-padding: 0;
+    margin:0;
+    padding: 0;
+    
+    }
+    
+    
+    .container{
+        width:100%;
+        height:3300px;
+        background-color:#A5ECF5;}
 
-}
+        .nav{width: 100%;
+            height: 100px;
+            background-color: #091FBE;}
+            .title{width: 500px;
+                position: absolute;
+            height: 70px;
+       
+    margin-left: 435px;
+    margin-top: 15px;
+    color:#fff;
+    font-size: 20px;}
+    
+    
+    #titulo{
+        font-size: 20px;
+        font-family:'Fascinate Inline', cursive;
+        color: blanchedalmond;
+        margin-left:400px;
+      
+    }
+    #contenido{
+        font-size: 40px;
+        font-family:'Open Sans', sans-serif;
+        color: cornsilk;
+    }
+    #comando{
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color:blue;
+    }
+    .todo{margin-left: 400px; height: 100%;}
+    
+         .martha{width: 100%;height: 100px;}
+                
+         
+              .poquito{width: 100%;height: 50px;}
 
+    #titulo1{margin-left: 10px;color:blue;}
 
-.container{
-    width:100%;
-    height:5000px;
-    background-color:#A5ECF5;}
-    .nav{width: 100%;
-        height: 100px;
-        background-color: #091FBE;}
-        .title{width: 500px;
-            position: absolute;
-        height: 70px;
-   
-margin-left: 435px;
-margin-top: 15px;
-color:#fff;
-font-size: 20px;}
+    #crear{font-size: 20px;}
 
+    #comando1{font-size: 20px; color:red;}
 
-#titulo{
-    font-size: 20px;
-    font-family:'Fascinate Inline', cursive;
-    color: blanchedalmond;
-    margin-left:400px;
-  
-}
-#contenido{
-    font-size: 40px;
-    font-family:'Open Sans', sans-serif;
-    color: cornsilk;
-}
-#comando{
-    font-size: 30px;
-    font-family: 'Lato', sans-serif;
-    color:blue;
-}
-.todo{margin-left: 100px; height: 4000px;}
-.martha{width: 100%;height: 100px;}
-.poquito{width: 100%;height: 50px;}
-#titulo1{margin-left: 10px;color:blue;}
-#crear{font-size: 20px;}
-#comando1{font-size: 20px; color:red;}
-#mensaje2{font-size: 20px;}
-.diapositiva1{width: 100%;height: 150px;}
-#titulo2{margin-left: 10px;color:blue;}
-#comentario1{font-size: 20px;}
-#comentario2{font-size: 20px; color:red;}
-#comentario3{font-size: 20px;}
-#comentario4{font-size: 20px; color:red;}
-.diapositiva2{width: 100%;height: 170px;}
-#titulo3{margin-left: 10px;color:blue;}
-#comentario5{font-size: 20px;}
-#comentario6{font-size: 20px;}
-#comentario7{font-size: 20px;}
-#comentario8{font-size: 20px;}
-.diapositiva3{width: 100%;height: 170px;}
-#titulo4{margin-left: 10px;color:blue;}
-#comentario9{font-size: 20px;}
-#comentario10{font-size: 20px; color:red;}
-#comentario11{font-size: 20px;}
-#comentario12{font-size: 20px; color:red;}
-#comentario13{font-size: 20px;}
-#comentario14{font-size: 20px;}
-.diapositiva4{width: 100%;height: 200px;}
-#titulo5{margin-left: 10px;color:blue;}
-#comen{font-size: 20px;}
-#comen1{font-size: 20px;}
-#comen2{font-size: 20px; color:red;}
-#comen3{font-size: 20px;}
-#comen4{font-size: 20px;}
-#comen5{font-size: 20px;}
-#comen6{font-size: 20px; color:red;}
-#comen7{font-size: 20px;}
-.diapositiva5{width: 100%;height: 250px;}
-#titulo6{margin-left: 10px;color:blue;}
-#sus1{font-size: 20px;}
-#sus2{font-size: 20px; color:red;}
-#sus3{font-size: 20px; color:red;}
-#sus4{font-size: 20px; color:red;}
-#sus5{font-size: 20px; color:red;}
-.diapositiva6{width: 100%;}
-#titulo7{margin-left: 10px;color:blue;}
-#mam1{font-size: 20px;}
-#mam2{font-size: 20px; color:red;}
-#mam3{font-size: 20px; color:red;}
-#titulo8{margin-left: 10px;color:blue;}
-#pap{font-size: 20px;}
-#pap1{font-size: 20px; color:red;}
-#titulo9{margin-left: 10px;color:blue;}
-#mmm{font-size: 20px;}
-#mmm1{font-size: 20px; color:red;}
-#titulo10{margin-left: 10px;color:blue;}
-#www{font-size: 20px;}
-#www1{font-size: 20px; color:red;}
-#titulo11{margin-left: 10px;color:blue;}
-#titulo12{margin-left: 10px;color:blue;}
-#ttt{font-size: 20px;}
+    #mensaje2{font-size: 20px;}
+
+                  .diapositiva1{width: 100%;height: 150px;}
+
+    #titulo2{margin-left: 10px;color:blue;}
+
+    #comentario1{font-size: 20px;}
+
+    #comentario2{font-size: 20px; color:red;}
+
+    #comentario3{font-size: 20px;}
+
+    #comentario4{font-size: 20px; color:red;}
+
+                       .diapositiva2{width: 100%;height: 170px;}
+
+    #titulo3{margin-left: 10px;color:blue;}
+
+    #comentario5{font-size: 20px;}
+
+    #comentario6{font-size: 20px;}
+
+    #comentario7{font-size: 20px;}
+
+    #comentario8{font-size: 20px;}
+    .diapositiva3{width: 100%;height: 170px;}
+    #titulo4{margin-left: 10px;color:blue;}
+    #comentario9{font-size: 20px;}
+    #comentario10{font-size: 20px; color:red;}
+    #comentario11{font-size: 20px;}
+    #comentario12{font-size: 20px; color:red;}
+    #comentario13{font-size: 20px;}
+    #comentario14{font-size: 20px;}
+    .diapositiva4{width: 100%;height: 200px;}
+    #titulo5{margin-left: 10px;color:blue;}
+    #comen{font-size: 20px;}
+    #comen1{font-size: 20px;}
+    #comen2{font-size: 20px; color:red;}
+    #comen3{font-size: 20px;}
+    #comen4{font-size: 20px;}
+    #comen5{font-size: 20px;}
+    #comen6{font-size: 20px; color:red;}
+    #comen7{font-size: 20px;}
+    .diapositiva5{width: 100%;height: 250px;}
+    #titulo6{margin-left: 10px;color:blue;}
+    #sus1{font-size: 20px;}
+    #sus2{font-size: 20px; color:red;}
+    #sus3{font-size: 20px; color:red;}
+    #sus4{font-size: 20px; color:red;}
+    #sus5{font-size: 20px; color:red;}
+    .diapositiva6{width: 100%;}
+    #titulo7{margin-left: 10px;color:blue;}
+    #mam1{font-size: 20px;}
+    #mam2{font-size: 20px; color:red;}
+    #mam3{font-size: 20px; color:red;}
+    #titulo8{margin-left: 10px;color:blue;}
+    #pap{font-size: 20px;}
+    #pap1{font-size: 20px; color:red;}
+    #titulo9{margin-left: 10px;color:blue;}
+    #mmm{font-size: 20px;}
+    #mmm1{font-size: 20px; color:red;}
+    #titulo10{margin-left: 10px;color:blue;}
+    #www{font-size: 20px;}
+    #www1{font-size: 20px; color:red;}
+    #titulo11{margin-left: 10px;color:blue;}
+    #titulo12{margin-left: 10px;color:blue;}
+    #ttt{font-size: 20px;}
+    
